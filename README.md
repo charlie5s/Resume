@@ -101,6 +101,106 @@
                         $lang4 = "Bisaya";
                     ?>
                         <p><?php echo$lang1 ?></p>
+
+
+
+CSS FILE
+*{
+    margin: 2%;
+}
+
+main{
+    border: solid black 1px;
+    height: 270%;
+    background-color: lightgrey;
+}
+
+img{
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    right: 9%;
+    top: 7%;
+    border-radius: 50%;
+}
+
+h1{
+    margin-top: 5%;
+    
+    font-size: 40px;
+}
+
+#sub1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr{
+    border: solid black 1px;
+    margin: 0% 2% 0% 2%;
+    padding: 0%;
+
+}
+
+#coninfo{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 0%;
+    padding: 0%;
+}
+
+h2{
+    background-color: rgba(146, 143, 143, 0.945);
+    padding-left: 5px;
+    
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+li{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Ter{
+    font-weight: bold;
+}
+
+.Sec{
+    font-weight: bold;
+}
+
+.Pri{
+    font-weight: bold;
+}
+.cert1{
+    display: flex;
+    
+}
+
+#name{
+    position: relative;
+    right: 30px;
+    font-weight: bold;
+}
+
+.cert2{
+    display: flex;
+    
+}
+
+.cert2 hr{
+    position: relative;
+    left: 31px;
+}
+
+#name2{
+    font-weight: bold;
+}
                             <p><?php echo$lang2 ?></p>
                                 <p><?php echo$lang3 ?></p>
                                     <p><?php echo$lang4 ?></p>
